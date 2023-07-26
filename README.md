@@ -11,12 +11,12 @@ The competition is simple: use machine learning to create a model that predicts 
 
 While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
 
-In this challenge, we ask to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
+In this challenge, we ask to build a predictive model that answers the question: “What sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
 
 
 ## 2. Data
 
-Our data is from kaggle website.The data has been split into two groups:
+Our data is from the Kaggle website. The data has been split into two groups:
 
 * training set (train.csv)
 * test set (test.csv)
@@ -41,7 +41,7 @@ sibsp   ►   The dataset defines family relations in this way... Sibling = brot
 parch   ► 
 Parent = mother, father
 Child = daughter, son, stepdaughter, stepson
-Some children travelled only with a nanny, therefore parch=0 for them. <br>
+Some children traveled only with a nanny, therefore parch=0 for them. <br>
 
 ticket   ►   Ticket number <br>
 
@@ -51,9 +51,6 @@ cabin   ►   Cabin number <br>
 
 embarked   ►   Port of Embarkation  C = Cherbourg, Q = Queenstown, S = Southampton <br>
 
-You see other phases throughout notebook.
-
-Hope you enjoy reading my code and I would be happy to hear your opinions and suggestions!
  
  
 ## 3. Evaluation
@@ -62,3 +59,7 @@ Hope you enjoy reading my code and I would be happy to hear your opinions and su
 
 Your score is the percentage of passengers you correctly predict. This is known as accuracy.
 We should achieve 1.0 accuracy for being among the best submissions.
+
+You see other phases throughout the notebook.
+
+Hope you enjoy reading my code and I would be happy to hear your opinions and suggestions!
